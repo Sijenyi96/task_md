@@ -1,4 +1,4 @@
-document.addEventListener('DO(MContentLoaded',function(){
+document.addEventListener('DOMContentLoaded',function(){
     const photoGridItems = document.querySelectorAll('.photo-grid-item');
       photoGridItems.forEach((item) => {
          const description = item.querySelector(".description");
@@ -9,7 +9,7 @@ document.addEventListener('DO(MContentLoaded',function(){
         description.style.display = 'block';
 
         setTimeout(() => {
-            description.style.display = "none"
+            description.style.display = "none";
         }, 3000);
         });
         // change the border on mouseover and reset on mouseleave
